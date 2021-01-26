@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+
+<head>
+    <base href="/MVCTemplate"/>
+    <meta charset="UTF-8"/>
+    <title>
+        {ifset $page_title}{$page_title}{else}Default title{/ifset}
+    </title>
+    <meta name="page_description" content="{ifset $page_description}{$page_description}{/ifset}"/>
+    <meta name="keywords" content="{ifset $page_keywords}{$page_keywords}{/ifset}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="www/favicon.ico" type="image/x-icon">
+    {include "styles.latte"}
+    {include "scripts.latte"}
+</head>
+
+<body>
+{include content}
+</body>
+
+</html>

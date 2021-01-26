@@ -1,0 +1,17 @@
+{
+  "name": "mvc-template",
+  "description": "",
+  "license": "proprietary",
+  "version": "1.0.0",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "nette-forms": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pastel-Design/MVCTemplate.git"
+  }
+}
