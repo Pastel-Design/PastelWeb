@@ -1,13 +1,13 @@
 <?php
-
+	
 namespace app\controllers;
 
 /**
- * Controller DefaultController
+ * Controller KontaktController
  *
  * @package app\controllers
  */
-class DefaultController extends Controller
+class KontaktController extends Controller
 {
     public function __construct()
     {
@@ -15,8 +15,6 @@ class DefaultController extends Controller
     }
 
     /**
-     * Sets default homepage
-     *
      * @param array      $params
      * @param array|null $gets
      *
@@ -24,9 +22,9 @@ class DefaultController extends Controller
      */
     public function process(array $params, array $gets = null)
     {
-        $this->head['page_title'] = "Template title";
-        $this->head['page_keywords'] = "template,title";
-        $this->head['page_description'] = "Template project description";
-        $this->setView('default');
+        $this->head["page_title"] = "";
+        $this->head["page_keywords"] = "";
+        $this->head["page_description"] = "";
+        $this->setView("default");
     }
 }

@@ -11,6 +11,7 @@
     "ext-pdo": "*",
     "ext-fileinfo": "*",
     "ext-json": "*",
-    "ext-intl": "*"
+    "ext-intl": "*",
+    "ext-readline": "*"
   }
 }
