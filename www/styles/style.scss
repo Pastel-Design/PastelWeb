@@ -1,37 +1,5 @@
 @import "root";
-
-body {
-  margin: 0;
-  height: 3670px;
-  background-image: url("../images/Web 1920 – 3.png");
-  background-repeat: no-repeat;
-}
-
-body * {
-  opacity: 50%;
-}
-
-header {
-  height: 70px;
-  background-color: blue;
-}
-
-#landing-section {
-  height: 1000px;
-  background-color: green;
-}
-
-#what-we-do {
-  height: 800px;
-  background-color: red;
-}
-
-#our-latest-work {
-  height: 1350px;
-  background-color: brown;
-}
-
-footer {
-  height: 450px;
-  background-color: darkmagenta;
-}
+@import "work";
+@import "services";
+@import "landing";
+@import "footer";

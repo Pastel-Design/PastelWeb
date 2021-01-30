@@ -24,9 +24,9 @@ class DefaultController extends Controller
      */
     public function process(array $params, array $gets = null)
     {
-        $this->head['page_title'] = "Template title";
-        $this->head['page_keywords'] = "template,title";
-        $this->head['page_description'] = "Template project description";
+        $this->head['page_title'] = "Pastel Design";
+        $this->head['page_keywords'] = "design,grafika,webdesign,web-design,graphics,development";
+        $this->head['page_description'] = "Pastel";
         $this->setView('default');
     }
 }

@@ -34,13 +34,16 @@ final class Router
         if (empty($parsedURL[0])) {
             array_unshift($parsedURL, "default");
         }
+
+        /*
         try {
             DbManager::connect(DbConfig::$host, DbConfig::$username, DbConfig::$pass, DbConfig::$database);
         } catch (PDOException $exception) {
             if ($parsedURL[0] != "error") {
                 $this->reroute("error/500");
             }
-        }
+        }*/
+
         $controllerName = $this->dashToCamel(array_shift($parsedURL));
         $controllerClass = $controllerName . 'Controller';
 
@@ -51,8 +54,12 @@ final class Router
             $this->reroute('error/404');
         }
         $this->controller->controllerName = $controllerName;
-        $this->controller->process($parsedURL, $parsedGET);
-        $this->controller->writeView();
+        if ($this->controller->isActive()) {
+            $this->controller->process($parsedURL, $parsedGET);
+            $this->controller->writeView();
+        } else {
+            $this->reroute("default");
+        }
     }
 
     /**

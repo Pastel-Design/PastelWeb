@@ -1,0 +1,34 @@
+/*FOOTER*/
+footer {
+  height: 450px;
+  //background-color: darkmagenta;
+  background-image: url("../images/elipse.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer > div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+h6 {
+  font-size: 46px;
+  font-family: "Segoe UI", serif;
+  font-weight: normal;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.contact {
+  background-color: white;
+  color: black;
+  margin: 20px 0 0;
+}
