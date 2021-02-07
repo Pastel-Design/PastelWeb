@@ -1,0 +1,88 @@
+header {
+  height: 66px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 23.25% 0 24%;
+}
+
+.header-nav a {
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+#logo {
+  height: 42.625px;
+  width: 185.125px;
+}
+
+#landing-section {
+  height: 950px;
+  background-image: url("../images/background1.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+}
+
+#landing-section section {
+  padding-left: 90px;
+}
+
+#landing-section h1 {
+  font-size: 89px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  line-height: 125%;
+}
+
+#landing-section h4 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-button {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 88px;
+  width: 222px;
+  border: none;
+  background-color: #706EF1;
+  color: white;
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  border-radius: 25px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#circle {
+  position: absolute;
+  bottom: -200px;
+  right: 0;
+}
+
+#circle2 {
+  position: absolute;
+  bottom: -700px;
+  left: -640px;
+}
+
+/*# sourceMappingURL=landing.css.map */

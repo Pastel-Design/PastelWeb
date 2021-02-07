@@ -1,0 +1,50 @@
+/*SECTION 2*/
+#what-we-do {
+  height: 750px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 150px;
+  color: black;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: "Segoe UI", serif;
+  font-weight: normal;
+}
+
+.services-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.services-row {
+  display: flex;
+  flex-flow: row;
+}
+
+.services-row > div {
+  margin: 20px 60px 60px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.services-row p {
+  font-size: 14px;
+}
+
+.services-row h3 {
+  font-size: 25px;
+  font-family: "Segoe UI", serif;
+  font-weight: normal;
+}
+
+.services-icon {
+  object-fit: contain;
+  height: 60px;
+  width: 60px;
+}
+
+/*# sourceMappingURL=services.css.map */
